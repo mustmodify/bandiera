@@ -6,8 +6,8 @@ services:
     repo: https://github.com/mustmodify/bandiera
     plan: starter
     branch: main
-    rootDir: /
-    #dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
+    #rootDir: /
+    dockerCommand: ./entrypoint.sh # optional (defaults to Dockerfile command)
     #numInstances: 3 # optional (defaults to 1)
     healthCheckPath: /
     # envVars:
